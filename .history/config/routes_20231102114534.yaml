@@ -1,0 +1,16 @@
+index:
+   path: /{age<\d+>?0}
+   controller: App\Controller\TestController::index
+   methods: [POST, GET]
+   host: lo
+  #  defaults: 
+  #    age: 0
+  #  requirements:
+  #    age: \d+
+
+test:
+   path: /test
+   controller: App\Controller\TestController::test
+
+
+

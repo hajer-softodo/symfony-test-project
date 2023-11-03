@@ -1,0 +1,12 @@
+index:
+   path: /{age}
+   controller: App\Controller\TestController::index
+   defaults: 
+     
+
+test:
+   path: /test
+   controller: App\Controller\TestController::test
+
+
+

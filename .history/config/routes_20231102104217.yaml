@@ -1,0 +1,6 @@
+index:
+   path: /
+   controller: App\Controller\TestController::index
+
+    ath: /
+   controller: App\Controller\TestController::index
